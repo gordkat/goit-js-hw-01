@@ -3,7 +3,7 @@ const pricePerDroid = 3000;
 let message;
 let totalPrice;
 let balance;
-let numberOfDroid = prompt("Сколько дроидов Вы желаете купить?");
+const numberOfDroid = prompt("Сколько дроидов Вы желаете купить?");
 if (numberOfDroid === null) {
   message = "Отменено пользователем!";
   console.log(message);
